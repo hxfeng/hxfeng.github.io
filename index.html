@@ -5,6 +5,14 @@
         <meta charset="utf-8"/>
        <!-- <link rel="icon" type="image/ico"   href="//hxfeng.github.io/blog/favicon.ico"/> -->
         <style>
+    .table-c table{border-right:1px solid #F00;border-bottom:1px solid #F00} 
+    .table-c table td{border-left:1px solid #F00;border-top:1px solid #F00} 
+    /* 
+    css 注释： 
+    只对table td设置左与上边框； 
+    对table设置右与下边框； 
+    为了便于截图，我们将css 注释说明换行排版 
+    */ 
             body{
                 display: -webkit-flex;
                 display: flex;
@@ -29,31 +37,33 @@
         </style>
     </head>
     <body >
-        <div class="mid">
-            <img height=200px;width=200px; src="./images/logo.jpg"></img>
-            <h1 class="white">冯海雄的个人博客</h1>
-            <hr>
-<table width="400" border="1">
+      <div class="mid">
+        <img height=200px;width=200px; src="./images/logo.jpg"></img>
+        <h1 class="white">冯海雄的个人博客</h1>
+        <hr>
+          <div class="table-c">
+<table width="200" border="0">
  <tr>
-  <td align="left"><a href="bookmark.html">记事本</a></td>
-  <td align="right"><a href="/blog">我的博客</a></td>
+   <td align="left"><a href="bookmark.html">记事本</a></td>
+   <td align="right"><a href="/blog">我的博客</a></td>
  </tr>
  <tr>
-  <td align="left"><a href="http://zhangjg.github.io/blog/">机器学习</a></td>
-  <td align="right"><a href="http://jackycode.github.io/">机器学习1</a></td>
+   <td align="left"><a href="http://zhangjg.github.io/blog/">机器学习</a></td>
+   <td align="right"><a href="http://jackycode.github.io/">机器学习1</a></td>
  </tr>
  <tr>
-  <td align="left"><a href="http://shiyanjun.cn//">简单之美</a></td>
-  <td align="right"><a href="#">友情主题</a></td>
+   <td align="left"><a href="http://shiyanjun.cn//">简单之美</a></td>
+   <td align="right"><a href="#">友情主题</a></td>
  </tr>
 </table>
+</div>
 <!--
             <div class="white"><a href="/blog">我的博客</a>/<a href="bookmark.html">记事本</a></div>
          <div class="white"><a href="#">友情主题</a>/<a href="http://zhangjg.github.io/blog/">机器学习</a></div>
          <div class="white"><a href="http://jackycode.github.io/">机器学习1</a>/<a href="http://shiyanjun.cn//">简单之美</a></div>
-        
+
    -->     
-            <hr>
-        </div>
-    </body>
+   <hr>
+   </div>
+ </body>
 </html>
